@@ -55,6 +55,28 @@ body {
   font-size: 50px;
 }
 
+.sec-sub-heading {
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+    color: #222;
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
 .someinfo {
-  padding: 50px 0;
+  padding: 80px 0;
+}
+
+.someinfo img[class*="someinfo-"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  width: 80px;
+  height: auto;
+}
+
+.someinfo .someinfo-text {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    color: #555555;
 }
